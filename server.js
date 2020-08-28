@@ -12,7 +12,7 @@ const port = 3000
 var d = null
 var collection = null
 var product = 'car'
-const mongoClient = new MongoClient("mongodb://Vlladdd:horosho123@ds159892.mlab.com:59892/advertisement_analyzer", { useNewUrlParser: true });
+const mongoClient = new MongoClient("mongodb://name:password@ds159892.mlab.com:59892/advertisement_analyzer", { useNewUrlParser: true });
 mongoClient.connect(function (err, client) {
 
   if (err) {
