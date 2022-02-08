@@ -12,7 +12,8 @@ const port = 3000
 var d = null
 var collection = null
 var product = 'car'
-const mongoClient = new MongoClient("mongodb://Vlladdd:horosho123@ds159892.mlab.com:59892/advertisement_analyzer", { useNewUrlParser: true });
+//mongodb link here
+
 mongoClient.connect(function (err, client) {
 
   if (err) {
@@ -215,7 +216,8 @@ app.post('/findData', async function (request, response) {
   //console.log(request.body)
   var d1 = null
   var collection6 = null
-  const mongoClient1 = new MongoClient(request.body.name, { useNewUrlParser: true });
+  console.log(request.body.name)
+  const mongoClient1 = new MongoClient(request.body.name, { useNewUrlParser: true, useUnifiedTopology: true  });
   let promise = new Promise((resolve, reject) => {
     mongoClient1.connect(function (err, client) {
 
@@ -225,6 +227,8 @@ app.post('/findData', async function (request, response) {
 
       d1 = client.db(request.body.dbname);
       collection6 = d1.collection(request.body.collection)
+      console.log(d1)
+      console.log(collection6)
       setTimeout(() => resolve("готово!"), 1000)
       // взаимодействие с базой данных
     });
@@ -233,12 +237,16 @@ app.post('/findData', async function (request, response) {
   collection6.find().toArray(function (err, user) {
     // hanlde err..
     if (user) {
+      console.log("3")
       //console.log(user[0].name)
       response.send(user)
       // user exists 
     }
+    else {
+      console.log(err)
+    }
+    mongoClient1.close()
   })
-  mongoClient1.close()
 })
 
 app.post('/addData', async function (request, response) {
@@ -246,7 +254,8 @@ app.post('/addData', async function (request, response) {
   //console.log(request.body)
   var d1 = null
   var collection6 = null
-  const mongoClient1 = new MongoClient("mongodb://Vlladdd:vladvlad1@ds211168.mlab.com:11168/test_for_analyzer", { useNewUrlParser: true });
+  //mongodb link here
+  
   let promise = new Promise((resolve, reject) => {
     mongoClient1.connect(function (err, client) {
 

@@ -2,13 +2,13 @@
 //  FirstViewController.swift
 //  Advertisement_Analyzer
 //
-//  Created by Vlad Nechiporenko on 3/21/20.
+//  Created by Vlad Nechyporenko on 3/21/20.
 //  Copyright © 2020 Vlad Nechyporenko. All rights reserved.
 //
 
 import UIKit
 import Charts
-import SwiftDataTables
+//import SwiftDataTables
 
 class MainViewController: UIViewController {
     
@@ -295,11 +295,20 @@ class MainViewController: UIViewController {
     @IBOutlet weak var budgetView: UIStackView!
     
     func getCurrentDate(){
-        let date = Date()
+        // Specify date components
+        var dateComponents = DateComponents()
+        dateComponents.year = 2020
+        dateComponents.month = 6
+        dateComponents.day = 20
+
+        // Create date from components
+        let userCalendar = Calendar(identifier: .gregorian) // since the components above (like year 1980) are for Gregorian
+        let date = userCalendar.date(from: dateComponents)
+//        let date = Date()
         let calendar = Calendar.current
-        let result = calendar.component(.day, from: date)
-        Analyzer1.month = calendar.component(.month, from: date)
-        Analyzer1.year = calendar.component(.year, from: date)
+        let result = calendar.component(.day, from: date!)
+        Analyzer1.month = calendar.component(.month, from: date!)
+        Analyzer1.year = calendar.component(.year, from: date!)
         if result >= 1 && result <= 7{
         Analyzer1.currentWeek = 1
         }
@@ -390,7 +399,6 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //addData()
-       // let data = ["name" : "mongodb://Vlladdd:vladvlad1@ds211168.mlab.com:11168/test_for_analyzer", "dbname" : "test_for_analyzer", "collection" : "test"]
         let data = ["name" : Analyzer1.sourceName!, "dbname" : Analyzer1.bdName!, "collection" : Analyzer1.tableName!]
         server8(data)
         sem1.wait()

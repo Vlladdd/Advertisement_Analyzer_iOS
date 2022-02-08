@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RZl-UZ-75o">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RZl-UZ-75o">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,7 +26,7 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oMZ-yU-Moi" customClass="LineChartView" customModule="Charts">
                                                 <rect key="frame" x="20" y="877" width="374" height="200"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="S40-4j-Udf">
                                                 <rect key="frame" x="22" y="149" width="374" height="200"/>
@@ -60,7 +62,7 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nwj-x4-lIt" customClass="LineChartView" customModule="Charts">
                                                 <rect key="frame" x="18" y="439" width="372" height="200"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rBq-oS-h9F">
                                                 <rect key="frame" x="20" y="706.5" width="386.5" height="86"/>
@@ -79,7 +81,7 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7H6-a4-s06">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7H6-a4-s06">
                                                 <rect key="frame" x="113" y="647" width="176" height="51.5"/>
                                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                                 <state key="normal" title="Детальніше"/>
@@ -104,7 +106,7 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwM-xK-H8u">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwM-xK-H8u">
                                                 <rect key="frame" x="107" y="1085" width="176" height="51"/>
                                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                                 <state key="normal" title="Детальніше"/>
@@ -129,7 +131,7 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZn-7h-yg0">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZn-7h-yg0">
                                                 <rect key="frame" x="107" y="1557" width="176" height="51"/>
                                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                                 <state key="normal" title="Детальніше"/>
@@ -151,9 +153,9 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sRz-fh-VI1" customClass="LineChartView" customModule="Charts">
                                                 <rect key="frame" x="17" y="1349" width="374" height="200"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBB-36-lZR">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBB-36-lZR">
                                                 <rect key="frame" x="112" y="2009" width="176" height="51"/>
                                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                                 <state key="normal" title="Детальніше"/>
@@ -163,7 +165,7 @@
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ree-4i-mg7" customClass="LineChartView" customModule="Charts">
                                                 <rect key="frame" x="22" y="1800.5" width="374" height="200.5"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Аналітика рекламних каналів" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRv-d1-23h">
                                                 <rect key="frame" x="15" y="1741" width="386" height="31.5"/>
@@ -213,7 +215,7 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="165-IA-DjW" secondAttribute="trailing" constant="19.5" id="6Ai-e2-QmK"/>
                                             <constraint firstItem="C7Z-j2-R31" firstAttribute="top" secondItem="rBq-oS-h9F" secondAttribute="bottom" constant="27" id="7bn-Zu-KTU"/>
@@ -296,14 +298,14 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="XV8-x7-CPw"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="mhs-PQ-ZqP" secondAttribute="bottom" id="4Uy-ZQ-2Ud"/>
                             <constraint firstItem="mhs-PQ-ZqP" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="IbR-EM-NyZ"/>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="mhs-PQ-ZqP" secondAttribute="trailing" id="ejv-Y1-3iP"/>
                             <constraint firstItem="mhs-PQ-ZqP" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="z4M-HG-iGC"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="second" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" id="GtU-UL-I68"/>
@@ -505,7 +507,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="Whe-Tc-5qL">
                                 <rect key="frame" x="20" y="781" width="374" height="51"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDa-Zh-oTG">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDa-Zh-oTG">
                                         <rect key="frame" x="0.0" y="0.0" width="88" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Назад"/>
@@ -513,7 +515,7 @@
                                             <action selector="backButton:" destination="vja-tr-B5p" eventType="touchUpInside" id="qCP-Gl-Sod"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jt3-VL-y0k">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jt3-VL-y0k">
                                         <rect key="frame" x="132" y="0.0" width="131" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Оновити"/>
@@ -521,7 +523,7 @@
                                             <action selector="update:" destination="vja-tr-B5p" eventType="touchUpInside" id="let-Qo-AYD"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DaW-Az-00a">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DaW-Az-00a">
                                         <rect key="frame" x="307" y="0.0" width="67" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Далі"/>
@@ -532,7 +534,8 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Bfs-QF-Ial"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Bfs-QF-Ial" firstAttribute="trailing" secondItem="Whe-Tc-5qL" secondAttribute="trailing" constant="20" id="3iQ-OD-egt"/>
                             <constraint firstItem="34j-Ts-QHt" firstAttribute="top" secondItem="Bfs-QF-Ial" secondAttribute="top" constant="26" id="EyO-qV-udD"/>
@@ -545,7 +548,6 @@
                             <constraint firstItem="Bfs-QF-Ial" firstAttribute="bottom" secondItem="Whe-Tc-5qL" secondAttribute="bottom" constant="30" id="hpO-Ez-kKd"/>
                             <constraint firstItem="ACP-cm-nRn" firstAttribute="leading" secondItem="Bfs-QF-Ial" secondAttribute="leading" constant="20" id="saw-Jj-Bg3"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Bfs-QF-Ial"/>
                     </view>
                     <navigationItem key="navigationItem" id="27Y-kL-WxY"/>
                     <connections>
@@ -582,12 +584,12 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58Y-AW-vFY" customClass="LineChartView" customModule="Charts">
                                 <rect key="frame" x="16" y="123" width="374" height="739"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="131" translatesAutoresizingMaskIntoConstraints="NO" id="f8U-oK-K3c">
                                 <rect key="frame" x="16" y="64" width="374" height="51"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="729-6j-OEI">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="729-6j-OEI">
                                         <rect key="frame" x="0.0" y="0.0" width="88" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Назад"/>
@@ -608,7 +610,8 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ORM-vc-xOb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="58Y-AW-vFY" firstAttribute="leading" secondItem="ORM-vc-xOb" secondAttribute="leading" constant="16" id="4NG-iP-8wZ"/>
                             <constraint firstItem="f8U-oK-K3c" firstAttribute="leading" secondItem="ORM-vc-xOb" secondAttribute="leading" constant="16" id="GSe-go-EBA"/>
@@ -618,7 +621,6 @@
                             <constraint firstItem="ORM-vc-xOb" firstAttribute="trailing" secondItem="f8U-oK-K3c" secondAttribute="trailing" constant="16" id="jf8-zK-yvM"/>
                             <constraint firstItem="f8U-oK-K3c" firstAttribute="top" secondItem="ORM-vc-xOb" secondAttribute="top" constant="20" id="jpt-tp-C4n"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ORM-vc-xOb"/>
                     </view>
                     <navigationItem key="navigationItem" id="mxn-CB-SfJ"/>
                     <connections>
@@ -648,7 +650,7 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MLj-LO-I1q" customClass="LineChartView" customModule="Charts">
                                 <rect key="frame" x="20" y="114" width="374" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Запитів" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6j-H2-MlC">
                                 <rect key="frame" x="146" y="67" width="122" height="39"/>
@@ -702,7 +704,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="Fn6-mz-BXs">
                                 <rect key="frame" x="20" y="653" width="374" height="51"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9r-KS-4oi">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9r-KS-4oi">
                                         <rect key="frame" x="0.0" y="0.0" width="176" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Детальніше"/>
@@ -710,7 +712,7 @@
                                             <action selector="detail:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="rgU-kS-L1s"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Alf-uw-fXZ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Alf-uw-fXZ">
                                         <rect key="frame" x="243" y="0.0" width="131" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Оновити"/>
@@ -721,7 +723,8 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="MLj-LO-I1q" secondAttribute="trailing" constant="20" id="8zS-hx-pje"/>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="e6j-H2-MlC" secondAttribute="trailing" constant="146" id="A0Q-fq-VBl"/>
@@ -740,7 +743,6 @@
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="Fn6-mz-BXs" secondAttribute="bottom" constant="55" id="xO4-S9-M6D"/>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="5Rw-wD-NAP" secondAttribute="trailing" constant="96.5" id="xu5-9U-ITV"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="second" id="cPa-gy-q4n"/>
                     <connections>
@@ -770,7 +772,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbS-gf-92l">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbS-gf-92l">
                                 <rect key="frame" x="20" y="811" width="88" height="51"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                 <state key="normal" title="Назад"/>
@@ -784,7 +786,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="69" translatesAutoresizingMaskIntoConstraints="NO" id="wfa-U2-H8V">
                                 <rect key="frame" x="20" y="690" width="374" height="51"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1i-yy-fRS">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1i-yy-fRS">
                                         <rect key="frame" x="0.0" y="0.0" width="163" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Попередня"/>
@@ -792,7 +794,7 @@
                                             <action selector="prevButton:" destination="Led-sf-Z35" eventType="touchUpInside" id="61V-Os-tZP"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4w-0p-Nlh">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4w-0p-Nlh">
                                         <rect key="frame" x="232" y="0.0" width="142" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Наступна"/>
@@ -813,7 +815,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9H-ct-v2a">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9H-ct-v2a">
                                         <rect key="frame" x="159" y="0.0" width="62" height="37"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                         <state key="normal" title="Admin"/>
@@ -821,7 +823,7 @@
                                             <action selector="makeAdmin:" destination="Led-sf-Z35" eventType="touchUpInside" id="ObK-E7-Iuu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjn-HK-eqt">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjn-HK-eqt">
                                         <rect key="frame" x="235" y="0.0" width="66" height="37"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                         <state key="normal" title="Default"/>
@@ -829,7 +831,7 @@
                                             <action selector="makeDefault:" destination="Led-sf-Z35" eventType="touchUpInside" id="vqY-tq-Sct"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L0-us-yHl">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L0-us-yHl">
                                         <rect key="frame" x="315" y="0.0" width="59" height="37"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                         <state key="normal" title="Немає"/>
@@ -840,7 +842,8 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uds-iY-Y2b"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="bie-Re-a9X" firstAttribute="top" secondItem="uds-iY-Y2b" secondAttribute="top" id="4K3-fM-DJD"/>
                             <constraint firstItem="uds-iY-Y2b" firstAttribute="bottom" secondItem="VbS-gf-92l" secondAttribute="bottom" id="4rh-U1-IUY"/>
@@ -859,7 +862,6 @@
                             <constraint firstItem="zON-8m-cQ4" firstAttribute="leading" secondItem="uds-iY-Y2b" secondAttribute="leading" constant="20" id="whC-cK-PjJ"/>
                             <constraint firstItem="bie-Re-a9X" firstAttribute="leading" secondItem="uds-iY-Y2b" secondAttribute="leading" constant="134" id="wsz-N6-q94"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="uds-iY-Y2b"/>
                     </view>
                     <connections>
                         <outlet property="actions" destination="Jbq-PN-HgU" id="7oE-ia-bs7"/>
@@ -909,7 +911,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYH-V9-e1X">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYH-V9-e1X">
                                 <rect key="frame" x="20" y="747" width="88" height="51"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                 <state key="normal" title="Назад"/>
@@ -918,7 +920,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="oAP-cf-E2i"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="oAP-cf-E2i" firstAttribute="trailing" secondItem="qnU-MH-B8y" secondAttribute="trailing" constant="55" id="1ye-JJ-PKc"/>
                             <constraint firstItem="pYH-V9-e1X" firstAttribute="top" secondItem="qnU-MH-B8y" secondAttribute="bottom" constant="182" id="7hf-k3-uIb"/>
@@ -934,7 +937,6 @@
                             <constraint firstItem="qnU-MH-B8y" firstAttribute="leading" secondItem="oAP-cf-E2i" secondAttribute="leading" constant="20" id="yvM-vQ-JA8"/>
                             <constraint firstItem="s6l-a4-nI3" firstAttribute="leading" secondItem="oAP-cf-E2i" secondAttribute="leading" constant="20" id="zpl-Sf-rsB"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="oAP-cf-E2i"/>
                     </view>
                     <navigationItem key="navigationItem" id="NgX-k8-zAh"/>
                     <connections>
@@ -1025,7 +1027,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60C-Yg-7Me">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60C-Yg-7Me">
                                 <rect key="frame" x="231" y="663" width="163" height="51"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                 <state key="normal" title="Завершити"/>
@@ -1034,7 +1036,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="tfM-tO-92n"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="tfM-tO-92n" firstAttribute="trailing" secondItem="KUu-WI-ctW" secondAttribute="trailing" constant="19" id="3ij-pK-Jc1"/>
                             <constraint firstItem="tfM-tO-92n" firstAttribute="trailing" secondItem="oY0-b6-gGX" secondAttribute="trailing" constant="14" id="5ZV-WY-x1n"/>
@@ -1056,7 +1059,6 @@
                             <constraint firstItem="MdG-1p-9se" firstAttribute="top" secondItem="oY0-b6-gGX" secondAttribute="bottom" constant="49.5" id="vCg-Np-clz"/>
                             <constraint firstItem="KUu-WI-ctW" firstAttribute="top" secondItem="MdG-1p-9se" secondAttribute="bottom" constant="61.5" id="ymv-xJ-N7K"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="tfM-tO-92n"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="second" id="ipQ-y2-jEn"/>
                     <connections>
@@ -1186,7 +1188,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1El-Ea-qJJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1El-Ea-qJJ">
                                 <rect key="frame" x="122" y="616" width="172" height="51"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                 <state key="normal" title="Журнал дій"/>
@@ -1197,7 +1199,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="172" translatesAutoresizingMaskIntoConstraints="NO" id="fsJ-fw-yIC">
                                 <rect key="frame" x="20" y="675" width="374" height="51"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmL-Oo-Ykq">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmL-Oo-Ykq">
                                         <rect key="frame" x="0.0" y="0.0" width="71" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Інфо"/>
@@ -1205,7 +1207,7 @@
                                             <action selector="info:" destination="YIF-5h-X6o" eventType="touchUpInside" id="kGH-Wy-3te"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A8-5Z-Wr6">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A8-5Z-Wr6">
                                         <rect key="frame" x="243" y="0.0" width="131" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Оновити"/>
@@ -1216,7 +1218,8 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3zW-WG-2Cf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="fsJ-fw-yIC" firstAttribute="leading" secondItem="3zW-WG-2Cf" secondAttribute="leading" constant="20" id="2sC-Da-uXf"/>
                             <constraint firstItem="3zW-WG-2Cf" firstAttribute="bottom" secondItem="fsJ-fw-yIC" secondAttribute="bottom" constant="33" id="5H4-aY-hNX"/>
@@ -1232,7 +1235,6 @@
                             <constraint firstItem="3zW-WG-2Cf" firstAttribute="trailing" secondItem="1El-Ea-qJJ" secondAttribute="trailing" constant="120" id="hea-8Z-cO8"/>
                             <constraint firstItem="3zW-WG-2Cf" firstAttribute="trailing" secondItem="fsJ-fw-yIC" secondAttribute="trailing" constant="20" id="pgO-Ab-V54"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="3zW-WG-2Cf"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="second" id="ufR-Lp-g8d"/>
                     <navigationItem key="navigationItem" id="W7b-2k-cJ9"/>
@@ -1259,7 +1261,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQD-jb-fby">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQD-jb-fby">
                                 <rect key="frame" x="300" y="767" width="67" height="51"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                 <state key="normal" title="Далі"/>
@@ -1270,7 +1272,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GGA-Rc-iVI">
                                 <rect key="frame" x="20" y="129" width="382" height="51"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zGb-Iy-jlE">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zGb-Iy-jlE">
                                         <rect key="frame" x="0.0" y="0.0" width="186" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Реєстрація"/>
@@ -1278,7 +1280,7 @@
                                             <action selector="registration:" destination="RZl-UZ-75o" eventType="touchUpInside" id="wlF-S7-EvU"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J79-6l-g8y">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J79-6l-g8y">
                                         <rect key="frame" x="196" y="0.0" width="186" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Авторизація"/>
@@ -1388,7 +1390,8 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="OiP-rt-stB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="OiP-rt-stB" firstAttribute="trailing" secondItem="3bc-Wr-7JQ" secondAttribute="trailing" constant="25" id="0Lz-E3-2nV"/>
                             <constraint firstItem="GGA-Rc-iVI" firstAttribute="leading" secondItem="OiP-rt-stB" secondAttribute="leading" constant="20" id="1vT-gO-yg5"/>
@@ -1399,7 +1402,6 @@
                             <constraint firstItem="OiP-rt-stB" firstAttribute="bottom" secondItem="fQD-jb-fby" secondAttribute="bottom" constant="44" id="osb-IY-seL"/>
                             <constraint firstItem="OiP-rt-stB" firstAttribute="trailing" secondItem="fQD-jb-fby" secondAttribute="trailing" constant="47" id="sPc-Rp-3sM"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="OiP-rt-stB"/>
                     </view>
                     <connections>
                         <outlet property="authorOutlet" destination="J79-6l-g8y" id="saL-iZ-fGD"/>
@@ -1431,7 +1433,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cw-Vc-25U">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cw-Vc-25U">
                                 <rect key="frame" x="312" y="788" width="67" height="51"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                 <state key="normal" title="Далі"/>
@@ -1542,7 +1544,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="PWV-r0-bPe">
                                 <rect key="frame" x="20" y="44" width="374" height="51"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oP6-Yf-nYs">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oP6-Yf-nYs">
                                         <rect key="frame" x="0.0" y="0.0" width="143" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Створити"/>
@@ -1550,7 +1552,7 @@
                                             <action selector="create:" destination="STW-Fr-WO6" eventType="touchUpInside" id="2Q9-yD-DKv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HU-sI-uME">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HU-sI-uME">
                                         <rect key="frame" x="182" y="0.0" width="192" height="51"/>
                                         <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="35"/>
                                         <state key="normal" title="Завантажити"/>
@@ -1752,7 +1754,8 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="M2c-5a-wce"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="0ba-aL-kdd" firstAttribute="leading" secondItem="M2c-5a-wce" secondAttribute="leading" constant="20" id="8cQ-cK-wEF"/>
                             <constraint firstItem="vvG-Uv-gnm" firstAttribute="leading" secondItem="M2c-5a-wce" secondAttribute="leading" constant="20" id="Kcr-XF-sLF"/>
@@ -1768,7 +1771,6 @@
                             <constraint firstItem="M2c-5a-wce" firstAttribute="trailing" secondItem="PWV-r0-bPe" secondAttribute="trailing" constant="20" id="y5h-mE-0Z2"/>
                             <constraint firstItem="M2c-5a-wce" firstAttribute="trailing" secondItem="vvG-Uv-gnm" secondAttribute="trailing" constant="24" id="y9Z-30-gaF"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="M2c-5a-wce"/>
                     </view>
                     <navigationItem key="navigationItem" id="bFM-u2-6XT"/>
                     <connections>
@@ -1830,6 +1832,9 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="GnO-K2-1m0"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="second" width="30" height="30"/>
         <namedColor name="green">
@@ -1838,8 +1843,8 @@
         <namedColor name="red">
             <color red="1" green="0.23100000619888306" blue="0.18799999356269836" alpha="0.79199999570846558" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="GnO-K2-1m0"/>
-    </inferredMetricsTieBreakers>
 </document>

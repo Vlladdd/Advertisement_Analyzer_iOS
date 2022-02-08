@@ -2,7 +2,7 @@
 //  ReportViewController.swift
 //  Advertisement_Analyzer
 //
-//  Created by Vlad Nechiporenko on 6/4/20.
+//  Created by Vlad Nechyporenko on 6/4/20.
 //  Copyright © 2020 Vlad Nechyporenko. All rights reserved.
 //
 

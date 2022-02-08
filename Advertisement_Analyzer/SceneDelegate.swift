@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Server
 //
-//  Created by Vlad Nechiporenko on 12/1/19.
+//  Created by Vlad Nechyporenko on 12/1/19.
 //  Copyright © 2019 Vlad Nechyporenko. All rights reserved.
 //
 

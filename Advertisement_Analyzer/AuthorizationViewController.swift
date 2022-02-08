@@ -2,7 +2,7 @@
 //  AuthorizationViewController.swift
 //  Advertisement_Analyzer
 //
-//  Created by Vlad Nechiporenko on 5/8/20.
+//  Created by Vlad Nechyporenko on 5/8/20.
 //  Copyright © 2020 Vlad Nechyporenko. All rights reserved.
 //
 

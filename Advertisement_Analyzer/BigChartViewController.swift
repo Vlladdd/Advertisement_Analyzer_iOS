@@ -2,13 +2,13 @@
 //  BigChartViewController.swift
 //  Advertisement_Analyzer
 //
-//  Created by Vlad Nechiporenko on 3/23/20.
+//  Created by Vlad Nechyporenko on 3/23/20.
 //  Copyright © 2020 Vlad Nechyporenko. All rights reserved.
 //
 
 import UIKit
 import Charts
-import SwiftDataTables
+//import SwiftDataTables
 import iOSDropDown
 
 class BigChartViewController: UIViewController {

@@ -2,7 +2,7 @@
 //  CreatorViewController.swift
 //  Advertisement_Analyzer
 //
-//  Created by Vlad Nechiporenko on 5/16/20.
+//  Created by Vlad Nechyporenko on 5/16/20.
 //  Copyright © 2020 Vlad Nechyporenko. All rights reserved.
 //
 
@@ -294,7 +294,7 @@ class CreatorViewController: UIViewController {
                 print("response = \(response)")
                 return
             }
-            let responseString = String(data: data, encoding: .utf8)
+           // let responseString = String(data: data, encoding: .utf8)
             
             do {
                 let json = try JSONSerialization.jsonObject(with: data, options: [])
